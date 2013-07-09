@@ -1,0 +1,28 @@
+.image-slider {
+	position: relative;
+}
+
+.image-slider > ul.images-container {
+	list-style: none;
+}
+
+.image-slider > ul.images-container > li.image-container {
+	text-align: center;
+}
+
+.image-slider > ul.images-container > li.image-container > img {
+	max-height: 90%;
+}
+
+.image-slider > .arrow {
+	position: absolute;
+	top: 50%;
+}
+
+.image-slider > .previous-arrow {
+	left: 0;
+}
+
+.image-slider > .next-arrow {
+	left: 98.2%;
+}
